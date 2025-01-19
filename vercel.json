@@ -1,9 +1,12 @@
 {
-    "rewrites": [
-      {
-        "source": "/:path*",
-        "destination": "/new-destination"
-      }
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/",
+            "dest": "/"
+        }
     ]
-  }
-  
+}
